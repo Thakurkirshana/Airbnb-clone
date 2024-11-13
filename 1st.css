@@ -1,0 +1,283 @@
+.boxdata{
+    width:80%;
+    margin: auto;
+    
+} 
+.herodiv{
+    margin: auto;
+    margin: 5px 38px;
+}
+ .heading{
+    font-size: 28px;
+    
+}
+ .photo{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+}
+.inform img{
+    margin-right: 20px;
+}
+.overlap{
+    margin-left: -20px;
+}
+.inform{
+ width: 60%;
+    display: flex;
+    margin: 50px;
+}
+hr{
+    margin: auto;
+    color: #f0eaea;
+    text-align: right;
+}
+.photo img{
+ margin-right: 10px;
+    border-radius: 50px;
+}
+
+.gallery {
+       display: flex;
+       margin: auto;
+    }
+    
+.mainp{
+display:flex;
+}
+.sidep{
+    display: flex;
+}
+.topbtn{
+    margin: auto;
+    display: flex;
+   justify-content: space-around;
+    align-items:baseline;
+    
+}
+.topbtn img{
+}
+
+.hostdata{
+    width: 60%;
+}
+.hostdata p{
+    font-size: 20px;
+}
+.hostdata2 .infoo{
+    display: flex;
+    align-items:baseline;
+    font-size: 13px;
+}
+.host img{
+    border-radius: 50px;
+}
+.information{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.description p{
+    font-size: 14px;
+}
+.description{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.host:hover{
+    background-color: #98b5ff;
+    transition: 2s;
+}
+
+.host{
+text-align: center;
+    margin-top: 15px;
+    width: 50%;
+    padding: 50px;
+    border-radius: 19px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.401);
+}
+
+.hostdata2 img{
+    margin-right: 10px;
+}
+.hostdata2{
+  
+ width: 60%;
+    display: flex;
+    margin: 14px;
+}
+.heading2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.soldbox:hover{
+  
+    transition: 3s;
+    transition-property: all;
+    background: #358eec;
+}
+.soldbox{
+    width: 20%;
+     margin-left:58% ;
+     padding: 10px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.401);
+    text-align: center;
+    
+}
+.soldbox button{
+    background-color: #989898;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+}
+.soldbox button:hover{
+    background-color: #556cd6;
+    color: rgb(255, 255, 255);
+}
+
+.gallery {
+    flex-wrap: wrap;
+    gap: 5px; 
+    justify-content: center;
+}
+
+.mainp {
+    text-align: center;
+    display: flex;
+}
+
+.mainp img {
+    width: 100%;
+    max-width: 600px; 
+    height:550px;
+    border-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.sidep {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    max-width: 640px;
+}
+
+.sidep img {
+    width: 100%; 
+    height: auto;
+    border-radius: 0px; 
+
+}
+
+#Photo{
+    width: 272px;
+    height: 272px;
+    border-bottom-right-radius: 10px;
+}
+#Photo2{
+    border-top-right-radius: 10px;
+    width: 272px;
+    height: 272px;
+}
+#Photo1{
+    width: 272px;
+    height: 272px;
+}
+#Photo3{
+    width: 272px;
+    height: 272px;
+}
+
+
+.icon{
+    padding: 20px;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+.icon h1{
+ font-size: 90px;
+}
+.icon p{
+    font-size: 25px;
+}
+
+
+.infos{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+.infoi{
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+   
+}
+.infoi h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+
+.infoi p {
+    font-size: 14px;
+    color: #666; 
+}
+
+
+.things {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 45%;
+    margin: auto;
+    
+}
+
+.item {
+    margin-top: 40px;
+    flex: 1;
+    margin-left: 60px;
+    margin-right: 90px;    
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.item h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.item ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.item ul li {
+    margin-bottom: 5px;
+}
+
+.item ul li a {
+    color: #007aff;
+    text-decoration: none;
+    
+}
+
+.things-item a:hover {
+    text-decoration: underline;
+}
